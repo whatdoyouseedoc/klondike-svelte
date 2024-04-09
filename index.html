@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/0.Dff722b3.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.BOQSYWYm.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CiBfzdsV.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.-twUDR_1.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CLOVJmCQ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.D1cIUrcn.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DUf7Ey64.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.D7hiiBSS.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.BqlWObng.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.CtK3Vncz.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <main><div class="container"> <section class="table svelte-1shyztj"><div class="row svelte-1shyztj">  <div class="stock svelte-1vgmtea">  <div class="place svelte-1mbkf8" data-svelte-h="svelte-6hkhw2"><div id="stock-circle" class="stock-circle svelte-1mbkf8"></div></div>   </div> <div class="foundation-list svelte-1shyztj"> <div id="foundation--foundation-1" class="dropzone svelte-1uwjn3s" draggable="false"> </div> <div id="foundation--foundation-2" class="dropzone svelte-1uwjn3s" draggable="false"> </div> <div id="foundation--foundation-3" class="dropzone svelte-1uwjn3s" draggable="false"> </div> <div id="foundation--foundation-4" class="dropzone svelte-1uwjn3s" draggable="false"> </div></div></div> <div class="row svelte-1shyztj"> <div id="place--pile-1" class="dropzone svelte-17g3a1o" draggable="false"> </div> <div id="place--pile-2" class="dropzone svelte-17g3a1o" draggable="false"> </div> <div id="place--pile-3" class="dropzone svelte-17g3a1o" draggable="false"> </div> <div id="place--pile-4" class="dropzone svelte-17g3a1o" draggable="false"> </div> <div id="place--pile-5" class="dropzone svelte-17g3a1o" draggable="false"> </div> <div id="place--pile-6" class="dropzone svelte-17g3a1o" draggable="false"> </div> <div id="place--pile-7" class="dropzone svelte-17g3a1o" draggable="false"> </div></div></section>  </div> </main> 
+			
+			<script>
+				{
+					__sveltekit_1phxuyl = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/klondike-svelte"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.CiBfzdsV.js"),
+						import("./_app/immutable/entry/app.DUf7Ey64.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+		<script src="https://unpkg.com/svelte-drag-drop-touch"></script>
+	</body>
+</html>

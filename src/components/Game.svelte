@@ -272,7 +272,7 @@
 
     function secretEnding() {
         const places = ['foundation--foundation-1', 'foundation--foundation-2', 'foundation--foundation-3', 'foundation--foundation-4', 'place--pile-1', 'place--pile-2', 'place--pile-3', 'place--pile-4', 'place--pile-5', 'place--pile-6', 'place--pile-7'];
-        const message = `${player}япосрал`.split(''); 
+        const message = `${player}ясделал`.split(''); 
 
         places.forEach((id, index) => {
             const el = document.createElement('div');
